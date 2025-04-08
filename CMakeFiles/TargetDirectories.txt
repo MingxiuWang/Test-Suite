@@ -1,2 +1,0 @@
-/home/SVF-tools/SVF/Test-Suite/CMakeFiles/edit_cache.dir
-/home/SVF-tools/SVF/Test-Suite/CMakeFiles/rebuild_cache.dir
