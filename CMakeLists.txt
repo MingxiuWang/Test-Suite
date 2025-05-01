@@ -342,6 +342,7 @@ foreach(filename ${ae_nullptr_deref_files})
           COMMAND ae -null-ptr-deref ${CMAKE_CURRENT_SOURCE_DIR}/${filename}
           WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/bin
   )
+
 endforeach()
 
 # loops over ae_recursion_files and run "ae -overflow $bc_file" under 3 recursion modes
