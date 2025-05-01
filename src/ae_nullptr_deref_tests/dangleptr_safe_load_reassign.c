@@ -2,6 +2,7 @@
 // Created by Ethan Lin on 21/10/2024.
 //
 #include <stdlib.h>
+#include <stdbool.h>
 
 extern void SAFE_LOAD(void *p);
 extern void UNSAFE_LOAD(void *p);
