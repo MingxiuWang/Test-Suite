@@ -5,7 +5,7 @@
 
 extern void SAFE_LOAD(void *p);
 extern void UNSAFE_LOAD(void *p);
-extern void svf_assert(bool);
+extern void svf_assert(bool cond);
 
 int main() {
     int *safePtr = (int *)malloc(sizeof(int));
